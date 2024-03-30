@@ -1,0 +1,32 @@
+.footer {
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.footerLeft {
+  max-width: 418px;
+}
+
+.cantry {
+  display: flex;
+  justify-content: space-between;
+}
+
+.numberCantry {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerLeftTop {
+  width: 418px;
+  height: 50px;
+}
+
+.right {
+  text-align: right;
+}
+
+.numUa {
+  text-align: right;
+}

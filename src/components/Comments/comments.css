@@ -1,0 +1,79 @@
+.comments {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  max-width: 520px;
+  height: 704px;
+  background: #272727;
+}
+
+.comments textarea {
+  width: 480px;
+  height: 118px;
+  max-width: 480px;
+  max-height: 128px;
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 20px;
+  padding-top: 20px;
+  background-color: rgba(170, 170, 170, 0.1);
+  color: white;
+  border: none;
+}
+
+.comments textarea::placeholder {
+  color: white;
+}
+
+.inp input {
+  width: 417px;
+  height: 50px;
+  background-color: rgba(170, 170, 170, 0.1);
+  border: none;
+  /* opacity: 0.1; */
+  padding: 15px;
+  color: white;
+}
+
+.inp input::placeholder {
+  color: white;
+  font-size: 16px;
+}
+
+.socList {
+  display: flex;
+  list-style-type: none;
+  position: relative;
+  right: 50px;
+}
+
+.socList li {
+  padding-left: 10px;
+}
+
+.socList li:hover {
+  cursor: pointer;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.btn {
+  font-weight: 500;
+  font-size: 18px;
+  width: 480px;
+  height: 50px;
+  background-color: #5600e1;
+  border: none;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.oneComment {
+  overflow: auto;
+}
