@@ -90,13 +90,13 @@ p {
 
 @media (max-width: 800px) {
   .btn {
-    width: 300px;
+    width: 100%;
   }
   .comments textarea {
-    width: 300px;
+    width: 100%;
   }
 
   .inp input {
-    width: 300px;
+    width: 100%;
   }
 }

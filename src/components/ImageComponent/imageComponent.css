@@ -1,9 +1,17 @@
-.imageComponent{
-  width: 100%;
-  display: block;
+.imageComponent {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
 }
 
 .imageComponent img {
   max-width: 100%;
   height: auto;
+}
+
+@media(max-width: 800px) {
+  .imageComponent {
+    flex-direction: column; 
+    align-items: center; 
+  }
 }

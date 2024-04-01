@@ -7,6 +7,7 @@
   font-weight: 500;
   align-items: center;
   vertical-align: middle;
+  max-width: 950px;
 }
 
 .whatYouGet .punkt {
@@ -45,5 +46,16 @@
 @media (max-width: 650px) {
   .galochka img {
     content: url('/public/img/compliWhite.png');
+  }
+}
+
+@media (max-width: 800px) {
+  .whatYouGet {
+    margin-top: 0px !important;
+    padding-right: 30px;
+    margin-bottom: 30px;
+  }
+  .whatYouGet .punkt {
+    margin: 10px;
   }
 }

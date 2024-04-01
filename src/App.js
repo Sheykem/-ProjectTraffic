@@ -33,8 +33,8 @@ function App() {
         <div className="content d-flex ">
           <div className="baner">
             {content}
-            <div className="mt-25">
-              <h2 className="titleBaner">Как создать прирост траифка в 2023 году ?</h2>
+            <div className="titleBanerBlock mt-25">
+              <h2 className="titleBaner">Как создать прирост траифка и прожаж в 2023 году ?</h2>
               <SpecialGive />
               <h3 className="title text-center mt-50">Ты получишь:</h3>
               <WhatYouGet />

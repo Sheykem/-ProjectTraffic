@@ -64,7 +64,7 @@
     display: flex;
     flex-direction: column;
   }
-  .specTake{
+  .specTake {
     margin-left: -50px !important;
     padding-bottom: 15px;
     flex-direction: column;
@@ -74,11 +74,17 @@
     display: none;
   }
 
-  .bottomDiv{
+  .bottomDiv {
     flex-direction: column;
   }
 
-  .alexPhoto{
+  .alexPhoto {
     bottom: 25px;
+  }
+}
+
+@media (max-width: 800px) {
+  .specGive {
+    margin-top: 10px !important;
   }
 }

@@ -22,10 +22,6 @@ body {
   padding-right: 200px;
 }
 
-.baner {
-  padding-right: 50px;
-}
-
 .titleBaner {
   font-size: 24px;
   font-weight: 600;
@@ -59,5 +55,14 @@ body {
   .content {
     margin-left: -150px;
     margin-right: -200px;
+  }
+}
+
+@media (max-width: 800px) {
+  .content .titleBanerBlock {
+    margin-top: 10px !important;
+  }
+  .content .title {
+    margin-bottom: 10px !important;
   }
 }

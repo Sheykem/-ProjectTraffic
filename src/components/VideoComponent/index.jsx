@@ -1,3 +1,5 @@
+import React from "react";
+import './videoComponent.css'
 const VideoComponent = () => {
   return (
     <div className="videoComponent">
