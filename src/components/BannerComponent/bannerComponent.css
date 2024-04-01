@@ -1,4 +1,3 @@
-/* .bannerComponent img {
-    max-width: 950px;
-    max-height: 534px;
-} */
+.bannerComponent img {
+  max-width: 100%;
+}

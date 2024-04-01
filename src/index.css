@@ -1,10 +1,13 @@
 * {
-  font-family: "Montserrat", sans-ser;
+  font-family: 'Montserrat', sans-ser;
+  box-sizing: border-box;
+
+  margin: 0;
 }
 
 body {
   margin: 0;
-  font-family: "Montserrat", sans-ser;
+  font-family: 'Montserrat', sans-ser;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: black;
@@ -15,7 +18,7 @@ body {
 .wrapper {
   max-width: 1920px;
   max-height: 1284px;
-  padding-left: 200px;
+  padding-left: 150px;
   padding-right: 200px;
 }
 
@@ -28,6 +31,12 @@ body {
   font-weight: 600;
 }
 
+.specGive {
+  background-color: #272727;
+  width: 950px;
+  height: 140px;
+}
+
 .title {
   font-size: 24px;
   font-weight: 600;
@@ -37,4 +46,18 @@ body {
   margin-top: 100px;
   border: 1px solid #454545;
   width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .content {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}
+
+@media (max-width: 800px) {
+  .content {
+    margin-left: -150px;
+    margin-right: -200px;
+  }
 }

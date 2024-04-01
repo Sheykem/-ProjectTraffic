@@ -1,4 +1,9 @@
-/* .imageComponent img {
-  max-width: 950px;
-  max-height: 534px;
-} */
+.imageComponent{
+  width: 100%;
+  display: block;
+}
+
+.imageComponent img {
+  max-width: 100%;
+  height: auto;
+}

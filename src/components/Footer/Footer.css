@@ -1,11 +1,9 @@
 .footer {
-  text-align: center;
-  margin-left: 200px;
-  margin-right: 200px;
+  padding-bottom: 48px;
 }
 
 .footerLeft {
-  max-width: 418px;
+  vertical-align: middle;
 }
 
 .cantry {
@@ -14,8 +12,25 @@
 }
 
 .numberCantry {
+  position: relative;
   display: flex;
   justify-content: space-between;
+  padding-top: 8px;
+}
+
+.contacts {
+  margin-top: 54px;
+  display: flex;
+}
+
+.contacts img {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+}
+
+.right p {
+  margin-top: 20px;
 }
 
 .footerLeftTop {
@@ -23,10 +38,76 @@
   height: 50px;
 }
 
-.right {
+.numUa {
   text-align: right;
 }
 
-.numUa {
-  text-align: right;
+.firstP {
+  order: 1;
+}
+
+.secondP {
+  order: 2;
+}
+
+@media (max-width: 1800px) {
+  .footer {
+    position: relative;
+    margin-top: 1000px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .footer {
+    text-align: center;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    display: block;
+  }
+}
+
+@media (max-width: 1600px) {
+  .footerRight {
+    margin-top: 75px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 900px) {
+  .footer {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .footerRight {
+    padding-top: 48px;
+  }
+
+  .contacts {
+    transform: rotate3d(180);
+  }
+
+  .firstP {
+    order: 2;
+  }
+
+  .secondP {
+    order: 1;
+  }
+}
+
+@media (max-width: 650px) {
+  .footer {
+    padding: 0px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .right{
+    width: 260px;
+  }
 }

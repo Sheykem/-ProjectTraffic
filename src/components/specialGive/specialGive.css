@@ -1,0 +1,84 @@
+.specGive {
+  margin-top: 25px;
+  width: 100%;
+  height: 100%;
+}
+.specGive h2 {
+  color: #5600e1;
+  font-weight: 700;
+}
+
+.spanColor {
+  font-size: 15px;
+  font-weight: 500;
+  color: #5600e1;
+}
+.titleGive {
+  display: inline-block;
+  padding: 0;
+}
+
+.specGiveH4 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.btnGive {
+  cursor: pointer;
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: white;
+  background-color: #5600e1;
+  height: 50px;
+  border: none;
+  padding: 16px 14px;
+}
+
+.bottomDiv {
+  position: relative;
+}
+
+.alexPhoto {
+  position: absolute;
+  right: 0;
+  bottom: -3px;
+  right: -7px;
+}
+
+.alexPhone {
+  position: absolute;
+  right: -9px;
+  bottom: -3px;
+}
+
+@media (max-width: 1217px) {
+  .specGive {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .twoMany {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .specTake{
+    margin-left: -50px !important;
+    padding-bottom: 15px;
+    flex-direction: column;
+    padding-top: 23px;
+  }
+  .off {
+    display: none;
+  }
+
+  .bottomDiv{
+    flex-direction: column;
+  }
+
+  .alexPhoto{
+    bottom: 25px;
+  }
+}

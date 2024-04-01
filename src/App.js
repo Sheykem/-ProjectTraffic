@@ -1,20 +1,22 @@
-import "./index.css";
-import React, { useState, useEffect } from "react";
-import BannerComponent from "./components/BannerComponent";
-import ImageComponent from "./components/ImageComponent";
-import VideoComponent from "./components/VideoComponent";
-import Comments from "./components/Comments";
-import Footer from "./components/Footer";
+import './index.css';
+import React, { useState, useEffect } from 'react';
+import BannerComponent from './components/BannerComponent';
+import ImageComponent from './components/ImageComponent';
+import VideoComponent from './components/VideoComponent';
+import Comments from './components/Comments';
+import Footer from './components/Footer';
+import SpecialGive from './components/specialGive';
+import WhatYouGet from './components/WhaYouGet';
 function App() {
   const [content, setContent] = useState(null);
 
   useEffect(() => {
-    const currentTime = new Date().toLocaleString("en-US", {
-      hour: "numeric",
-      minute: "numeric",
+    const currentTime = new Date().toLocaleString('en-US', {
+      hour: 'numeric',
+      minute: 'numeric',
       hour12: false,
     });
-    const currentHour = parseInt(currentTime.split(":")[0]);
+    const currentHour = parseInt(currentTime.split(':')[0]);
 
     if (currentHour >= 18 && currentHour < 18.33) {
       setContent(<VideoComponent />);
@@ -32,21 +34,18 @@ function App() {
           <div className="baner">
             {content}
             <div className="mt-25">
-              <h2 className="titleBaner">
-                Как создать прирост траифка в 2023 году ?
-              </h2>
-              <img width={950} height={140} src="/img/banerBottom.png" alt="" />
-              <h3 className="title text-center">Ты получишь:</h3>
-              <div className="text-center mt-40">
-                <img src="/img/Puntks.png" alt="Punkts" />
-              </div>
+              <h2 className="titleBaner">Как создать прирост траифка в 2023 году ?</h2>
+              <SpecialGive />
+              <h3 className="title text-center mt-50">Ты получишь:</h3>
+              <WhatYouGet />
+              {/* нужный текст */}
             </div>
           </div>
           <Comments />
         </div>
+        <div className="line"></div>
+        <Footer />
       </div>
-      <div className="line"></div>
-      <Footer />
     </div>
   );
 }

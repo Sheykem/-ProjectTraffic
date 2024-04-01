@@ -1,4 +1,3 @@
-/* .videoComponent {
-  max-width: 950px;
-  max-height: 534px;
-} */
+.videoComponent {
+max-width: 100%;
+}
