@@ -16,6 +16,7 @@ body {
 }
 
 .wrapper {
+  padding-top: 60px;
   max-width: 1920px;
   max-height: 1284px;
   padding-left: 150px;
