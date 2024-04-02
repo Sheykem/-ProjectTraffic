@@ -44,7 +44,7 @@ body {
   width: 100%;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1850px) {
   .content {
     flex-direction: column;
     flex-wrap: nowrap;
